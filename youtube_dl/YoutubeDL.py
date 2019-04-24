@@ -1739,7 +1739,7 @@ class YoutubeDL(object):
             #self.to_stdout(json.dumps(info_dict))
             self.to_stdout('Writing json data to youtube_dl.json')
             with open('youtube_dl.json', 'w') as f:
-                f.write(json.dumps(info_dict).encode('utf-8'))
+                f.write(json.dumps(info_dict))
                 f.close()
 
         # Do nothing else if in simulate mode
