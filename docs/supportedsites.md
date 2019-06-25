@@ -78,7 +78,6 @@
  - **AudioBoom**
  - **audiomack**
  - **audiomack:album**
- - **auroravid**: AuroraVid
  - **AWAAN**
  - **awaan:live**
  - **awaan:season**
@@ -150,6 +149,7 @@
  - **CBSInteractive**
  - **CBSLocal**
  - **cbsnews**: CBS News
+ - **cbsnews:embed**
  - **cbsnews:livevideo**: CBS News Live Videos
  - **CBSSports**
  - **CCMA**
@@ -164,6 +164,7 @@
  - **chirbit**
  - **chirbit:profile**
  - **Cinchcast**
+ - **Cinemax**
  - **CiscoLiveSearch**
  - **CiscoLiveSession**
  - **CJSW**
@@ -173,7 +174,6 @@
  - **Clipsyndicate**
  - **CloserToTruth**
  - **CloudflareStream**
- - **cloudtime**: CloudTime
  - **Cloudy**
  - **Clubic**
  - **Clyp**
@@ -193,7 +193,6 @@
  - **Coub**
  - **Cracked**
  - **Crackle**
- - **Criterion**
  - **CrooksAndLiars**
  - **crunchyroll**
  - **crunchyroll:playlist**
@@ -237,8 +236,6 @@
  - **DouyuTV**: 斗鱼
  - **DPlay**
  - **DPlayIt**
- - **dramafever**
- - **dramafever:series**
  - **DRBonanza**
  - **Dropbox**
  - **DrTuber**
@@ -488,6 +485,7 @@
  - **MatchTV**
  - **MDR**: MDR.DE and KiKA
  - **media.ccc.de**
+ - **media.ccc.de:lists**
  - **Medialaan**
  - **Mediaset**
  - **Mediasite**
@@ -609,7 +607,6 @@
  - **nowness**
  - **nowness:playlist**
  - **nowness:series**
- - **nowvideo**: NowVideo
  - **Noz**
  - **npo**: npo.nl, ntr.nl, omroepwnl.nl, zapp.nl and npo3.nl
  - **npo.nl:live**
@@ -693,7 +690,6 @@
  - **PopcornTV**
  - **PornCom**
  - **PornerBros**
- - **PornFlip**
  - **PornHd**
  - **PornHub**: PornHub and Thumbzilla
  - **PornHubPlaylist**
@@ -734,6 +730,7 @@
  - **RBMARadio**
  - **RDS**: RDS.ca
  - **RedBullTV**
+ - **RedBullTVRrnContent**
  - **Reddit**
  - **RedditR**
  - **RedTube**
@@ -805,6 +802,7 @@
  - **ShowRoomLive**
  - **Sina**
  - **SkylineWebcams**
+ - **SkyNews**
  - **skynewsarabia:article**
  - **skynewsarabia:video**
  - **SkySports**
@@ -857,6 +855,8 @@
  - **StretchInternet**
  - **stv:player**
  - **SunPorno**
+ - **sverigesradio:episode**
+ - **sverigesradio:publication**
  - **SVT**
  - **SVTPage**
  - **SVTPlay**: SVT Play and Öppet arkiv
@@ -997,6 +997,7 @@
  - **Vbox7**
  - **VeeHD**
  - **Veoh**
+ - **verystream**
  - **Vessel**
  - **Vesti**: Вести.Ru
  - **Vevo**
@@ -1020,7 +1021,6 @@
  - **videomore:video**
  - **VideoPremium**
  - **VideoPress**
- - **videoweed**: VideoWeed
  - **Vidio**
  - **VidLii**
  - **vidme**
@@ -1067,7 +1067,7 @@
  - **VoxMediaVolume**
  - **vpro**: npo.nl, ntr.nl, omroepwnl.nl, zapp.nl and npo3.nl
  - **Vrak**
- - **VRT**: deredactie.be, sporza.be, cobra.be and cobra.canvas.be
+ - **VRT**: VRT NWS, Flanders News, Flandern Info and Sporza
  - **VrtNU**: VrtNU.be
  - **vrv**
  - **vrv:series**
@@ -1097,13 +1097,10 @@
  - **Weibo**
  - **WeiboMobile**
  - **WeiqiTV**: WQTV
- - **wholecloud**: WholeCloud
  - **Wimp**
  - **Wistia**
  - **wnl**: npo.nl, ntr.nl, omroepwnl.nl, zapp.nl and npo3.nl
  - **WorldStarHipHop**
- - **wrzuta.pl**
- - **wrzuta.pl:playlist**
  - **WSJ**: Wall Street Journal
  - **WSJArticle**
  - **WWE**
