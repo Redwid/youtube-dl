@@ -105,6 +105,7 @@ from .bilibili import (
     BiliBiliBangumiIE,
     BilibiliAudioIE,
     BilibiliAudioAlbumIE,
+    BiliBiliPlayerIE,
 )
 from .biobiochiletv import BioBioChileTVIE
 from .bitchute import (
@@ -497,7 +498,6 @@ from .jeuxvideo import JeuxVideoIE
 from .jove import JoveIE
 from .joj import JojIE
 from .jwplatform import JWPlatformIE
-from .jpopsukitv import JpopsukiIE
 from .kakao import KakaoIE
 from .kaltura import KalturaIE
 from .kanalplay import KanalPlayIE
@@ -636,7 +636,10 @@ from .mixcloud import (
 from .mlb import MLBIE
 from .mnet import MnetIE
 from .moevideo import MoeVideoIE
-from .mofosex import MofosexIE
+from .mofosex import (
+    MofosexIE,
+    MofosexEmbedIE,
+)
 from .mojvideo import MojvideoIE
 from .morningstar import MorningstarIE
 from .motherless import (
@@ -808,7 +811,6 @@ from .packtpub import (
     PacktPubIE,
     PacktPubCourseIE,
 )
-from .pandatv import PandaTVIE
 from .pandoratv import PandoraTVIE
 from .parliamentliveuk import ParliamentLiveUKIE
 from .patreon import PatreonIE
@@ -851,6 +853,7 @@ from .polskieradio import (
     PolskieRadioIE,
     PolskieRadioCategoryIE,
 )
+from .popcorntimes import PopcorntimesIE
 from .popcorntv import PopcornTVIE
 from .porn91 import Porn91IE
 from .porncom import PornComIE
@@ -963,7 +966,10 @@ from .savefrom import SaveFromIE
 from .sbs import SBSIE
 from .screencast import ScreencastIE
 from .screencastomatic import ScreencastOMaticIE
-from .scrippsnetworks import ScrippsNetworksWatchIE
+from .scrippsnetworks import (
+    ScrippsNetworksWatchIE,
+    ScrippsNetworksIE,
+)
 from .scte import (
     SCTEIE,
     SCTECourseIE,
@@ -1168,7 +1174,10 @@ from .tv2 import (
     TV2ArticleIE,
     KatsomoIE,
 )
-from .tv2dk import TV2DKIE
+from .tv2dk import (
+    TV2DKIE,
+    TV2DKBornholmPlayIE,
+)
 from .tv2hu import TV2HuIE
 from .tv4 import TV4IE
 from .tv5mondeplus import TV5MondePlusIE
